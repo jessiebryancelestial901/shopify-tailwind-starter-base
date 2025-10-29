@@ -1,11 +1,11 @@
 module.exports = {
-  prefix: 'twcss-',
   content: [
-    './layout/*.liquid',
-    './templates/*.liquid',
-    './templates/customers/*.liquid',
-    './sections/*.liquid',
-    './snippets/*.liquid',
+    './layout/**/*.{liquid,json}',
+    './sections/**/*.{liquid,json}',
+    './snippets/**/*.{liquid,json}',
+    './templates/**/*.{liquid,json}',
+    './templates/customers/**/*.{liquid,json}',
+    './assets/**/*.js',
   ],
   theme: {
     screens: {
